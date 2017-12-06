@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>start = 1;
 alpha = 1;
+global.sw = 0;
 </string>
           </argument>
         </arguments>
@@ -50,6 +51,17 @@ alpha = 1;
           <argument>
             <kind>1</kind>
             <string>global.time += (1/30);
+if(global.sw == 1)
+{
+    if(room = rm_p1p1)
+    {
+        room_goto(rm_p1p2);
+    }
+    else
+    {
+        room_goto(rm_p1p1);
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -93,6 +105,8 @@ else
     
 }
 draw_set_alpha(1);
+draw_text(6, 0, floor(global.time));
+draw_text(60, 0, global.turns);
 </string>
           </argument>
         </arguments>

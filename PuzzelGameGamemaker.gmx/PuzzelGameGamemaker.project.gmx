@@ -40,7 +40,9 @@
     <object>objects\obj_puzzle1</object>
     <object>objects\obj_title</object>
     <object>objects\obj_lightp1p1</object>
+    <object>objects\obj_lightp1p2</object>
     <object>objects\obj_switchp1p1</object>
+    <object>objects\obj_switchp1p2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tit</room>

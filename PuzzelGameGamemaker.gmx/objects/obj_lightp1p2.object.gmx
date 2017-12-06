@@ -49,13 +49,13 @@
           <argument>
             <kind>1</kind>
             <string>depth = -y;
-image_index = global.lp1p1;
+image_index = global.lp1p2;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_player1">
+    <event eventtype="4" ename="obj_player2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -91,8 +91,8 @@ image_index = global.lp1p1;
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
     <point>4,10.875</point>
-    <point>11,10.875</point>
-    <point>11,12.875</point>
+    <point>10.875,10.875</point>
+    <point>10.875,12.875</point>
     <point>4,12.875</point>
   </PhysicsShapePoints>
 </object>

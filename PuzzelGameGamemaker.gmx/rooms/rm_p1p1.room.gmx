@@ -57,8 +57,8 @@
     <instance objName="obj_hitbox" x="0" y="111" name="inst_FEBED752" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="93" y="14" name="inst_2C1F82D7" locked="0" code="" scaleX="1.25" scaleY="6.59999990463257" colour="4294967295" rotation="0"/>
     <instance objName="obj_puzzle1" x="-16" y="-16" name="inst_E922F37B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_switchp1p1" x="48" y="48" name="inst_724F3990" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightp1p1" x="48" y="16" name="inst_8A11327A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_switchp1p1" x="32" y="80" name="inst_724F3990" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lightp1p1" x="64" y="32" name="inst_8A11327A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="0" y="0" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_44C3CD3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
