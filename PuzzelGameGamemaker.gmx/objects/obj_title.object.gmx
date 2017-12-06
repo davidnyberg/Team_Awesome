@@ -33,8 +33,10 @@ global.lp1p1 = 0;
 global.sp1p1 = 0;
 global.lp1p2 = 0;
 global.sp1p2 = 0;
+global.sp1p12 = 0;
+global.sp1p22 = 0;
 t = 0;
-//audio_play_sound(snd_music, 0, true);
+audio_play_sound(snd_music, 0, true);
 </string>
           </argument>
         </arguments>

@@ -59,6 +59,7 @@
     <instance objName="obj_player2" x="48" y="32" name="inst_A3BB734B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightp1p2" x="80" y="48" name="inst_374ECB82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_switchp1p2" x="16" y="48" name="inst_1391E048" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_switchp1p22" x="48" y="64" name="inst_163DA36C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="0" y="0" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_44C3CD3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

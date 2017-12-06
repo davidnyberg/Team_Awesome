@@ -39,15 +39,19 @@
     <object>objects\obj_hitbox</object>
     <object>objects\obj_puzzle1</object>
     <object>objects\obj_title</object>
+    <object>objects\obj_puzzlebeat</object>
     <object>objects\obj_lightp1p1</object>
     <object>objects\obj_lightp1p2</object>
     <object>objects\obj_switchp1p1</object>
+    <object>objects\obj_switchp1p12</object>
     <object>objects\obj_switchp1p2</object>
+    <object>objects\obj_switchp1p22</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tit</room>
     <room>rooms\rm_p1p1</room>
     <room>rooms\rm_p1p2</room>
+    <room>rooms\rm_puzzlebeat</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
