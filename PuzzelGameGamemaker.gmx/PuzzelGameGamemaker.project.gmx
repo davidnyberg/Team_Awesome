@@ -39,6 +39,7 @@
     <object>objects\obj_player1</object>
     <object>objects\obj_player2</object>
     <object>objects\obj_hitbox</object>
+    <object>objects\obj_gatebox</object>
     <object>objects\obj_puzzle1</object>
     <object>objects\obj_puzzle2</object>
     <object>objects\obj_title</object>
@@ -51,15 +52,20 @@
     <object>objects\obj_lightp2p22</object>
     <object>objects\obj_switchp1p1</object>
     <object>objects\obj_switchp1p12</object>
-    <object>objects\obj_switchp1p2</object>
     <object>objects\obj_switchp1p22</object>
+    <object>objects\obj_switchp1p2</object>
+    <object>objects\obj_switchp2p1</object>
+    <object>objects\obj_switchp2p2</object>
+    <object>objects\obj_switchp2p22</object>
     <object>objects\obj_gate</object>
+    <object>objects\obj_gateboxcontroll</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tit</room>
     <room>rooms\rm_p1p1</room>
     <room>rooms\rm_p1p2</room>
     <room>rooms\rm_p2p1</room>
+    <room>rooms\rm_p2p2</room>
     <room>rooms\rm_puzzlebeat</room>
   </rooms>
   <help>

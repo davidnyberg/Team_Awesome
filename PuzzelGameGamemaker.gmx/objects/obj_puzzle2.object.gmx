@@ -53,19 +53,19 @@ global.sw = 0;
             <string>global.time += (1/30);
 if(global.sw == 1)
 {
-    if(global.lp1p1 == 1 &amp;&amp; global.lp1p2 == 1)
+    if(global.lp2p1 == 1 &amp;&amp; global.lp2p12 == 1 &amp;&amp; global.lp2p2 == 1 &amp;&amp; global.lp2p22 == 1)
     {
         room_goto(rm_puzzlebeat);
     }
     else
     {
-        if(room = rm_p1p1)
+        if(room = rm_p2p1)
         {
-            room_goto(rm_p1p2);
+            room_goto(rm_p2p2);
         }
         else
         {
-            room_goto(rm_p1p1);
+            room_goto(rm_p2p1);
         }
     }
 }

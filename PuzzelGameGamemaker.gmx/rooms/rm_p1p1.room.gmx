@@ -60,6 +60,9 @@
     <instance objName="obj_switchp1p1" x="32" y="80" name="inst_724F3990" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightp1p1" x="64" y="32" name="inst_8A11327A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_switchp1p12" x="48" y="48" name="inst_3301BA23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gate" x="64" y="48" name="inst_87A4CE3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="0" y="48" name="inst_46579BC8" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="80" y="48" name="inst_B50F3F0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="0" y="0" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_44C3CD3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -104,6 +107,11 @@
     <tile bgName="background1" x="32" y="96" w="16" h="16" xo="16" yo="32" id="10000051" name="inst_DA7F245A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background1" x="16" y="96" w="16" h="16" xo="16" yo="32" id="10000052" name="inst_5D116847" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background1" x="0" y="96" w="16" h="16" xo="16" yo="32" id="10000053" name="inst_7F1EDF48" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="0" y="48" w="16" h="16" xo="0" yo="0" id="10000097" name="inst_C4937BAE" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="16" y="48" w="16" h="16" xo="0" yo="0" id="10000098" name="inst_42F10B0A" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="32" y="48" w="16" h="16" xo="0" yo="0" id="10000099" name="inst_CF38C76C" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="48" y="48" w="16" h="16" xo="0" yo="0" id="10000100" name="inst_4430D2AC" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="80" y="48" w="16" h="16" xo="0" yo="0" id="10000101" name="inst_B4304203" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_2" x="0" y="96" w="16" h="16" xo="0" yo="48" id="10000066" name="inst_3851CC72" depth="-250" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_2" x="16" y="96" w="16" h="16" xo="16" yo="48" id="10000067" name="inst_90B6D9EE" depth="-250" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_2" x="32" y="96" w="16" h="16" xo="16" yo="48" id="10000068" name="inst_83A2B904" depth="-250" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

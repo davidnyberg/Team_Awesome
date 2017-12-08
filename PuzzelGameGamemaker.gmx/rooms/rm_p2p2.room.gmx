@@ -51,15 +51,18 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_player1" x="48" y="80" name="inst_B6FBD8B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="-16" y="0" name="inst_CD4541FE" locked="0" code="" scaleX="8.0625" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="-13" y="14" name="inst_88BD5FA4" locked="0" code="" scaleX="1" scaleY="7.13333320617676" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="0" y="111" name="inst_FEBED752" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="93" y="14" name="inst_2C1F82D7" locked="0" code="" scaleX="1.25" scaleY="6.59999990463257" colour="4294967295" rotation="0"/>
-    <instance objName="obj_puzzle2" x="-16" y="-16" name="inst_89E340A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_switchp2p1" x="16" y="80" name="inst_3AF64F27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightp2p1" x="32" y="32" name="inst_5154E7E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_lightp2p12" x="64" y="32" name="inst_52899157" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_puzzle1" x="-16" y="-16" name="inst_E922F37B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player2" x="48" y="96" name="inst_A3BB734B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gatebox" x="48" y="48" name="inst_EA813678" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gate" x="48" y="48" name="inst_7886A6D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_switchp2p2" x="64" y="80" name="inst_796EE5C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_switchp2p22" x="16" y="32" name="inst_2854C81A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lightp2p2" x="48" y="16" name="inst_BED9E56A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lightp2p2" x="64" y="16" name="inst_3E0E028F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="0" y="0" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_44C3CD3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -104,6 +107,11 @@
     <tile bgName="background1" x="32" y="96" w="16" h="16" xo="16" yo="32" id="10000051" name="inst_DA7F245A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background1" x="16" y="96" w="16" h="16" xo="16" yo="32" id="10000052" name="inst_5D116847" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="background1" x="0" y="96" w="16" h="16" xo="16" yo="32" id="10000053" name="inst_7F1EDF48" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="80" y="48" w="16" h="16" xo="0" yo="0" id="10000091" name="inst_7CEA9B4F" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="64" y="48" w="16" h="16" xo="0" yo="0" id="10000092" name="inst_C101A70B" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="16" y="48" w="16" h="16" xo="0" yo="0" id="10000093" name="inst_90764532" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="0" y="48" w="16" h="16" xo="0" yo="0" id="10000094" name="inst_AF345542" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_fence" x="32" y="48" w="16" h="16" xo="0" yo="0" id="10000095" name="inst_59C2A253" depth="99999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_2" x="0" y="96" w="16" h="16" xo="0" yo="48" id="10000066" name="inst_3851CC72" depth="-250" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_2" x="16" y="96" w="16" h="16" xo="16" yo="48" id="10000067" name="inst_90B6D9EE" depth="-250" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_2" x="32" y="96" w="16" h="16" xo="16" yo="48" id="10000068" name="inst_83A2B904" depth="-250" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
