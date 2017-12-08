@@ -21,12 +21,14 @@
     <sprite>sprites\spr_hitbox</sprite>
     <sprite>sprites\Black</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\spr_gate</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_player1</background>
     <background>background\background1</background>
     <background>background\bg_2</background>
     <background>background\background3</background>
+    <background>background\bg_fence</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -38,19 +40,26 @@
     <object>objects\obj_player2</object>
     <object>objects\obj_hitbox</object>
     <object>objects\obj_puzzle1</object>
+    <object>objects\obj_puzzle2</object>
     <object>objects\obj_title</object>
     <object>objects\obj_puzzlebeat</object>
     <object>objects\obj_lightp1p1</object>
+    <object>objects\obj_lightp2p1</object>
+    <object>objects\obj_lightp2p12</object>
     <object>objects\obj_lightp1p2</object>
+    <object>objects\obj_lightp2p2</object>
+    <object>objects\obj_lightp2p22</object>
     <object>objects\obj_switchp1p1</object>
     <object>objects\obj_switchp1p12</object>
     <object>objects\obj_switchp1p2</object>
     <object>objects\obj_switchp1p22</object>
+    <object>objects\obj_gate</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tit</room>
     <room>rooms\rm_p1p1</room>
     <room>rooms\rm_p1p2</room>
+    <room>rooms\rm_p2p1</room>
     <room>rooms\rm_puzzlebeat</room>
   </rooms>
   <help>
