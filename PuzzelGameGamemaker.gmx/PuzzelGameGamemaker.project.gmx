@@ -59,6 +59,7 @@
     <object>objects\obj_switchp2p22</object>
     <object>objects\obj_gate</object>
     <object>objects\obj_gateboxcontroll</object>
+    <object>objects\obj_highscore</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tit</room>
@@ -67,6 +68,8 @@
     <room>rooms\rm_p2p1</room>
     <room>rooms\rm_p2p2</room>
     <room>rooms\rm_puzzlebeat</room>
+    <room>rooms\highscores</room>
+    <room>rooms\room6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
