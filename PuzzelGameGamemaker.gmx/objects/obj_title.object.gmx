@@ -68,12 +68,16 @@ audio_play_sound(snd_music, 0, true);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>t += 1;
+            <string>if keyboard_check_pressed(ord("S")) room_goto(rm_p1p1);
+
+/*t += 1;
 if(t == 60)
 {
     room_goto(rm_p1p1);
 
 }
+*/
+
 </string>
           </argument>
         </arguments>
@@ -119,6 +123,7 @@ draw_set_alpha(1);
 draw_text(5, 20, "THE ROOM");
 draw_text(5, 40, "not the");
 draw_text(5, 54, "movie");
+draw_text(5, 70, "S to Start");
 </string>
           </argument>
         </arguments>

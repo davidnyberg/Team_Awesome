@@ -28,7 +28,7 @@
             <string>start = 1;
 alpha = 1;
 global.time = 0;
-global.turns = 0;
+//global.turns = 0; this made it print 0, commented out
 global.lp1p1 = 0;
 global.sp1p1 = 0;
 global.lp1p2 = 0;
@@ -94,15 +94,26 @@ else
 }
 if(start == 1)
 {
-    draw_sprite_stretched(Black, 0, 0, 0, 96, 112);
+    draw_sprite_stretched(Black, 0, 0, 0, 36, 60);
 }
 else
 {
     draw_set_alpha(1);
 }
 draw_set_alpha(1);
-draw_text(5, 20, "PUZZLE");
-draw_text(5, 40, "BEAT");
+draw_text(5, 15, "PUZZLE");
+draw_text(5, 28, "BEAT");
+draw_text(5, 45, global.turns);
+draw_text(20, 45, "moves");
+draw_text(5, 70, "Press R");
+draw_text(5, 80, "to retry");
+
+//opens user input to take in their name, NOT WORKING
+//usr_name = get_string("Please Enter your name:","")
+//highscore_add(name,global.turns);
+
+if keyboard_check_pressed(ord("R")) room_goto(rm_tit);
+
 </string>
           </argument>
         </arguments>
