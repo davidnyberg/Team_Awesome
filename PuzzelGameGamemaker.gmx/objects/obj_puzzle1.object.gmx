@@ -55,7 +55,7 @@ if(global.sw == 1)
 {
     if(global.lp1p1 == 1 &amp;&amp; global.lp1p2 == 1)
     {
-        room_goto(rm_puzzlebeat);
+        room_goto(rm_p2p1);
     }
     else
     {

@@ -47,7 +47,7 @@ global.sp2p22 = 0;
 
 timer_1 = 0;
 t = 0;
-audio_play_sound(snd_music, 0, true);
+
 </string>
           </argument>
         </arguments>
@@ -71,7 +71,8 @@ audio_play_sound(snd_music, 0, true);
           <argument>
             <kind>1</kind>
             <string>if keyboard_check_pressed(ord("S")) room_goto(rm_p1p1);
-
+if keyboard_check_pressed(ord("H")) room_goto(rm_highscores);
+if keyboard_check_pressed(ord("C")) highscore_clear();
 /*t += 1;
 if(t == 60)
 {
@@ -125,12 +126,10 @@ draw_set_alpha(1);
 draw_text(5, 20, "THE ROOM");
 draw_text(5, 40, "not the");
 draw_text(5, 54, "movie");
-draw_text(5, 70, "S to Start");
-
+draw_text(20, 70, "[S]tart");
+draw_text(0, 85, "[H]ighScore");
 timer_1++;
-if (timer_1 == 30){
-global.name = get_string_async("Please Enter your name:"," blank ")
-}
+
 
    
 

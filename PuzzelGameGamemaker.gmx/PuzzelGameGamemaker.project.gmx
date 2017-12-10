@@ -31,6 +31,9 @@
     <background>background\bg_fence</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_title</font>
     <font>fonts\fnt_sub</font>
@@ -60,6 +63,7 @@
     <object>objects\obj_gate</object>
     <object>objects\obj_gateboxcontroll</object>
     <object>objects\obj_highscore</object>
+    <object>objects\obj_song</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tit</room>
@@ -68,7 +72,7 @@
     <room>rooms\rm_p2p1</room>
     <room>rooms\rm_p2p2</room>
     <room>rooms\rm_puzzlebeat</room>
-    <room>rooms\highscores</room>
+    <room>rooms\rm_highscores</room>
     <room>rooms\room6</room>
   </rooms>
   <help>

@@ -51,12 +51,18 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_hitbox" x="-16" y="0" name="inst_CD4541FE" locked="0" code="" scaleX="8.0625" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="-13" y="14" name="inst_88BD5FA4" locked="0" code="" scaleX="1" scaleY="7.13333320617676" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="0" y="111" name="inst_FEBED752" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_hitbox" x="93" y="14" name="inst_2C1F82D7" locked="0" code="" scaleX="1.25" scaleY="6.59999990463257" colour="4294967295" rotation="0"/>
-    <instance objName="obj_title" x="-16" y="-16" name="inst_3C0E5855" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_song" x="0" y="-16" name="inst_8CF72C5E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="0" y="0" name="inst_D26D57B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="16" y="0" name="inst_C4D9C926" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="32" y="0" name="inst_DA68D94F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="48" y="0" name="inst_F1E0B36B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="64" y="0" name="inst_A998D677" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="80" y="0" name="inst_0CB81050" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="96" y="0" name="inst_3D03C786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_hitbox" x="-16" y="0" name="inst_C65ABDEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_highscore" x="0" y="-16" name="inst_A5CD6B1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background1" x="0" y="0" w="16" h="16" xo="0" yo="0" id="10000001" name="inst_44C3CD3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
