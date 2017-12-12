@@ -51,6 +51,9 @@ global.sw = 0;
           <argument>
             <kind>1</kind>
             <string>global.time -= (1/30);
+if(global.time == 0){
+    room_goto(rm_puzzlebeat);
+}
 if(global.sw == 1)
 {
     if(global.lp1p1 == 1 &amp;&amp; global.lp1p2 == 1)

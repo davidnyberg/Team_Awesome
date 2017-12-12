@@ -103,9 +103,9 @@ else
 }
 draw_set_alpha(1);
 draw_text(5, 15, "PUZZLE");
-draw_text(5, 28, "BEAT");
-draw_text(10, 45, "Time");
-draw_text(5, 57, 100-global.time);
+draw_text(5, 28, "END");
+draw_text(20, 45, "Time");
+draw_text(15, 57, 100-global.time);
 draw_text(5, 70, "Press R");
 draw_text(5, 80, "to retry");
 
