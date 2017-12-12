@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,29 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>start = 1;
-alpha = 1;
-global.name = "";
-global.time = 100;
-global.turns = 0;
-global.lp1p1 = 0;
-global.sp1p1 = 0;
-global.lp1p2 = 0;
-global.sp1p2 = 0;
-global.sp1p12 = 0;
-global.sp1p22 = 0;
-
-global.lp2p1 = 1;
-global.lp2p12 = 1;
-global.sp2p1 = 0;
-global.lp2p2 = 0;
-global.lp2p22 = 0;
-global.sp2p2 = 0;
-global.sp2p22 = 0;
-
-global.pause = 0;
-timer_1 = 0;
-t = 0;
+            <string>global.pause = 0;
 
 </string>
           </argument>
@@ -71,31 +49,16 @@ t = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if keyboard_check_pressed(ord("S")){
- show_message("Press [Enter] to interact with the box to switch the room and player.
- Press [P] to pause the game, press again to resume the game.")
- room_goto(rm_p1p1);
-}
-if keyboard_check_pressed(ord("H")) room_goto(rm_highscores);
-if keyboard_check_pressed(ord("C")){
-  highscore_clear();
-  show_message("Clear all records");
-}
-if keyboard_check_pressed(ord("Q")) game_end();
-/*t += 1;
-if(t == 60)
-{
-    room_goto(rm_p1p1);
+            <string>if(global.pause){
 
+if keyboard_check_pressed(ord("Q")) room_goto(rm_tit);
 }
-*/
-
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="64">
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -112,36 +75,45 @@ if(t == 60)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>display_set_gui_size(96, 112);
-draw_set_alpha(alpha);
-if(alpha &gt; 0)
-{
-    alpha -= .05;
-}
-else
-{
-    alpha = 0;
-    start = 0;
-}
-if(start == 1)
-{
-    draw_sprite_stretched(Black, 0, 0, 0, 96, 112);
-}
-else
-{
+            <string>if(global.pause){
+    draw_set_color(c_black);
+    draw_set_alpha(0.5);
+    draw_rectangle(0,0,room_width,room_height,0);
+    draw_set_color(c_white);
     draw_set_alpha(1);
+    draw_text(24,16,"Pause");
+    draw_text(24,50,"[Q]uit");
+}else{
+    draw_set_alpha(1);
+    draw_set_color(c_white);
 }
-draw_set_alpha(1);
-draw_text(5, 20, "THE ROOM");
-draw_text(5, 40, "not the");
-draw_text(5, 54, "movie");
-draw_text(20, 70, "[S]tart");
-draw_text(0, 85, "[H]ighScore");
-timer_1--;
-
-
-   
-
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="80">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(global.pause==0){
+    global.pause=1;
+}else{
+    global.pause=0;
+}
 </string>
           </argument>
         </arguments>

@@ -50,7 +50,8 @@ global.sw = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.time -= (1/30);
+            <string>if(global.pause) exit;
+global.time -= (1/30);
 if(global.time == 0){
     room_goto(rm_puzzlebeat);
 }
@@ -58,7 +59,7 @@ if(global.sw == 1)
 {
     if(global.lp1p1 == 1 &amp;&amp; global.lp1p2 == 1)
     {
-        room_goto(rm_p2p1);
+        room_goto(rm_p2p1); //phase 1 solved
     }
     else
     {
@@ -72,6 +73,7 @@ if(global.sw == 1)
         }
     }
 }
+//if keyboard_check_pressed(ord("Q")) game_end();
 </string>
           </argument>
         </arguments>
@@ -88,7 +90,7 @@ if(global.sw == 1)
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_puzzle1</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -116,7 +118,13 @@ else
 }
 draw_set_alpha(1);
 draw_text(6, 0, floor(global.time));
-draw_text(60, 0, global.turns);
+draw_text(40,0,"P1");
+draw_text(70, 0, global.turns);
+if(global.pause){
+    draw_text(20,15, "[P]ause");
+    draw_text(20,30, "[Q]uit");
+}
+if keyboard_check_pressed(ord("Q")) game_end();
 </string>
           </argument>
         </arguments>

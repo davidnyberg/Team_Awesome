@@ -53,6 +53,7 @@ phy_fixed_rotation = true;
             <kind>1</kind>
             <string>depth = -y;
 moving = 0;
+if(global.pause) exit;
 if (keyboard_check(vk_left)) {phy_position_x -= 1; sprite_index = spr_player2left; moving = 1; dir = 3;}
 else
 if (keyboard_check(vk_right)) {phy_position_x+= 1; sprite_index = spr_player2right; moving = 1; dir = 1;}

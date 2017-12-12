@@ -52,7 +52,8 @@ image_speed = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -y;
+            <string>if(global.pause) exit;
+depth = -y;
 moving = 0;
 if (keyboard_check(vk_left)) {phy_position_x -= 1; sprite_index = spr_player1left; moving = 1; dir = 3;}
 else

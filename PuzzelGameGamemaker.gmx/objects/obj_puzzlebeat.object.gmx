@@ -115,6 +115,7 @@ draw_text(5, 80, "to retry");
 
 if keyboard_check_pressed(ord("R")) room_goto(rm_tit);
 
+if keyboard_check_pressed(ord("Q")) game_end();
 </string>
           </argument>
         </arguments>
