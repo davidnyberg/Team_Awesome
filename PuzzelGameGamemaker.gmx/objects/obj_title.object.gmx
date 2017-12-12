@@ -28,7 +28,7 @@
             <string>start = 1;
 alpha = 1;
 global.name = "";
-global.time = 0;
+global.time = 100;
 global.turns = 0;
 global.lp1p1 = 0;
 global.sp1p1 = 0;
@@ -128,7 +128,7 @@ draw_text(5, 40, "not the");
 draw_text(5, 54, "movie");
 draw_text(20, 70, "[S]tart");
 draw_text(0, 85, "[H]ighScore");
-timer_1++;
+timer_1--;
 
 
    

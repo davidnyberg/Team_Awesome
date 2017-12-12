@@ -49,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.name = get_string("Please Enter your name:","blank");
+            <string>global.name = get_string("Please Enter your name:","");
 </string>
           </argument>
         </arguments>

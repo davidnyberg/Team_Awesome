@@ -37,7 +37,7 @@ global.sp1p12 = 0;
 global.sp1p22 = 0;
 t = 0;
 //audio_play_sound(snd_music, 0, true);
-highscore_add(string(global.name),global.turns);
+highscore_add(string(global.name),global.time);
 </string>
           </argument>
         </arguments>
@@ -104,8 +104,8 @@ else
 draw_set_alpha(1);
 draw_text(5, 15, "PUZZLE");
 draw_text(5, 28, "BEAT");
-draw_text(5, 45, global.turns);
-draw_text(30, 45, "moves");
+draw_text(10, 45, "Time");
+draw_text(5, 57, 100-global.time);
 draw_text(5, 70, "Press R");
 draw_text(5, 80, "to retry");
 

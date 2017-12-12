@@ -50,7 +50,7 @@ global.sw = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.time += (1/30);
+            <string>global.time -= (1/30);
 if(global.sw == 1)
 {
     if(global.lp1p1 == 1 &amp;&amp; global.lp1p2 == 1)
